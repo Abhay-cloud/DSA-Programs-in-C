@@ -10,6 +10,7 @@ void printArray(int A[], int size){
     
 }
 
+// Adaptive sort
 void bubbleSort(int *A, int size){
     int temp;
     int isSorted = 0;
