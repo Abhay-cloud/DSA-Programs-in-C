@@ -18,7 +18,7 @@ void bubbleSort(int *A, int size){
     {
         printf("Working on pass number %d \n", i + 1);
         isSorted = 1;
-        for (int j = 0; j < size - 1 -i; j++) // loop comparison in each pass
+        for (int j = 0; j < size - 1 -i; j++) // loop for comparison in each pass
         {
            if (A[j]>A[j+1])
            {
